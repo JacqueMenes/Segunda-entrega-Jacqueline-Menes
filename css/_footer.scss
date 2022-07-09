@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: pink;
+    &__facebook {
+        color: #3b5998;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+    }
+    &__instagram {
+        color: #C13584;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+    }
+    &__whatsapp {
+        color: #25D366;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+    }
+    &__twitter {
+        color: #1DA1F2;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+    }
+    &__youtube {
+        color:  #FF0000;
+        font-size: 25px;
+        margin: 5px 5px 5px 5px;
+    }
+}

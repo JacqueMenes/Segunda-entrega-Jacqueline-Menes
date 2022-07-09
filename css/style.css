@@ -1,58 +1,122 @@
-/* header */
-.titulo-principal {
-    background-color: palevioletred;
-    font-size: x-large;
-    text-align: center;
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: pink;
 }
-.bg-propio {
-    background-color: palevioletred;
+.footer__facebook {
+  color: #3b5998;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
 }
-.bg-buscar {
-    background-color: violet;
+.footer__instagram {
+  color: #C13584;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.footer__whatsapp {
+  color: #25D366;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.footer__twitter {
+  color: #1DA1F2;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
+}
+.footer__youtube {
+  color: #FF0000;
+  font-size: 25px;
+  margin: 5px 5px 5px 5px;
 }
 
-/* main index */
+.header__titulo {
+  background-color: #d87093;
+  font-size: x-large;
+  text-align: center;
+}
+.header__propio {
+  background-color: #d87093;
+}
+.header__buscar {
+  background-color: #ee82ee;
+}
+
 .main {
-margin-top: 20px;
+  margin-top: 20px;
 }
 .main__index {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
 }
 .main__img {
-    text-align: center;
-    height: 400px;
+  text-align: center;
+  height: 400px;
 }
 .main__texto {
-    background-color: pink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: justify;
+  background-color: pink;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
 }
 .main__texto h5 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.main__formulario {
+  background-color: pink;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5%;
+}
+.main__formulario h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.main__formulario button {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 20px;
+  }
+  .main__index {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .main__img {
+    text-align: center;
+    height: 200px;
+  }
+  .main__texto {
+    background-color: pink;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+  }
+  .main__texto h5 {
     text-decoration: underline;
     text-align: center;
-}
-/* main contacto */
-.main__formulario {
+  }
+
+  .main__formulario {
     background-color: pink;
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5%;
-}
-.main__formulario h2 {
+  }
+  .main__formulario h2 {
     text-align: center;
     text-decoration: underline;
-}
-.main__formulario button {
+  }
+  .main__formulario button {
     margin-bottom: 40px;
-}
-/* footer */
-.footer {
-margin-top: 20px;
-    text-align: center;
-    background-color: pink;
-}
+  }
+}/*# sourceMappingURL=style.css.map */
