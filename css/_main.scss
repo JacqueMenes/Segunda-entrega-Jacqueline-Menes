@@ -1,3 +1,6 @@
+.body {
+    background-color: #dbd5d6;
+}
 // Cuerpo Index 
 .main {
     margin-top: 20px;
@@ -5,10 +8,6 @@
         width: 80%;
         margin: auto;
         margin-top: 20px;
-    }
-    &__img {
-        text-align: center;
-        height: 400px;
     }
     &__texto {
         background-color: pink;
@@ -39,3 +38,67 @@
     margin-bottom: 40px;
     }
 }
+// Cuerpo Planes
+.main {
+    &__plan {
+        background-color: red($color: #000000);
+        margin: 20px;
+        font-size: 20px
+    }
+    &__plan--b {
+        @extend .main__plan;
+        background-color: #f3cdd4;
+    }
+    &__plan--e {
+        @extend .main__plan;
+        background-color: #ec94a3;
+    }
+    &__plan--p {
+        @extend .main__plan;
+        background-color: #e7798b;
+    }
+    &__nombre {
+        @extend .main__plan;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__precio {
+        @extend .main__plan;
+        text-align: center;
+    }
+}
+//Mixins
+@mixin boton-generico {
+    font-family: arial;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 28px;
+    text-align: center;
+    &:hover {
+        background: rgb(221, 110, 129);
+        text-decoration: none;
+        color: #5a383e;
+    }
+}
+.btn-basico {
+    @include boton-generico;
+    border: solid 2px;
+    background: #f3cdd4;
+}
+.btn-estandar {
+    @include boton-generico;
+    border: solid 2px;
+    background: #ee697f;
+}
+.btn-premium {
+    @include boton-generico;
+    border: solid 2px;
+    background: #f196a5;
+    
+}
+.boton {
+    text-align: center;
+}
+// Cuerpo Quien Soy

@@ -8,3 +8,4 @@ Lenguajes utilizados en el Sitio:
 * [CSS]: Version 2.1
 ***
 ## Se cambia CSS a SASS!!!
+## Se agrega SEO!!!

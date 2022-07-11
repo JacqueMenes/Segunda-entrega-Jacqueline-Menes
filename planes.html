@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Style - Contacto</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Style - Planes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <!-- Agregando SEO -->
     <meta name="description" content="Agencia de Marketing especializada en la publicidad en redes sociales, creacion de contenido y manejo de cuentas empresariales y de emprendimientos">
     <meta name="keywords" content="Marketing, community, publicidad, redes, contenido, tendencia, reels, influencers, comunidad, canjes">
-</head>
+  </head>
 <body class="body">
   <header class="header">
     <div class="header__titulo">
@@ -54,60 +53,49 @@
         </div>
         </nav>
   </header>
-  <main class="main">
-    <div class="main__formulario">
-      <h2>¡Contactanos!</h2>
-      <form>
-        <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  <main class="main"> <!-- main planes -->
+    <div class="">
+      <div class="card-group ">
+        <div class="card main__plan--b">
+          <div class="card-body">
+            <h5 class="card-title main__nombre">Plan Basico</h5>
+            <ul>
+                <li>3 fotos en el feed</li>
+                <li>3 stories</li>
+                <li>Sin diseño grafico</li>
+            </ul>
+            <div class="boton">
+            <a href="./contacto.html" class="btn-basico">Valor $1.000</a>
+            </div>
+          </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+        <div class="card main__plan--e">
+          <div class="card-body">
+            <h5 class="card-title main__nombre">Plan Estandar</h5>
+            <ul>
+                <li>5 fotos en el feed</li>
+                <li>5 stories</li>
+                <li>Diseño grafico basico</li>
+            </ul>
+            <div class="boton">
+              <a href="./contacto.html" class="btn-estandar">Valor $2.000</a>
+              </div>
+          </div>
         </div>
-        <div id="passwordHelpBlock" class="form-text">
-          <label for="inputPassword5" class="form-label">Contraseña</label>
-              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-              Su contraseña debe contener mas de 6 caracteres.
+        <div class="card main__plan--p">
+          <div class="card-body">
+            <h5 class="card-title main__nombre">Plan Premium</h5>
+            <ul>
+                <li>10 fotos en el feed</li>
+                <li>10 stories</li>
+                <li>Diseño grafico Premium</li>
+            </ul>
+            <div class="boton">
+              <a href="./contacto.html" class="btn-premium">Valor $3.000</a>
+              </div>
+          </div>
         </div>
-          <hr>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-            <textarea class="form-control" id="Comentario" rows="3" placeholder="Buenos dias, mi consulta es..."></textarea>
-        </div>
-          <h5>Plan Seleccionado</h5>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-            <label class="form-check-label" for="inlineRadio1">Plan Basico</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Plan Estandar</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">Plan Premium</label>
-        </div>
-          <hr>
-        <div>
-          <select class="form-select" aria-label="Default select example">
-              <option selected>Pais de residencia</option>
-              <option value="1">Argentina</option>
-              <option value="2">Uruguay</option>
-              <option value="3">Chile</option>
-            </select>
-        </div>
-            <hr>
-        <div class="form-check form-switch">
-              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-              <label class="form-check-label" for="flexSwitchCheckDefault">Deseo recibir News</label>
-        </div>
-            <hr>
-        <div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      </form>
+      </div>
     </div>
   </main>
   <footer class="footer">
