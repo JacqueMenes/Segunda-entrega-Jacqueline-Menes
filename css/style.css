@@ -50,6 +50,13 @@
   text-align: center;
 }
 
+.main__quiensoy {
+  width: 70% px;
+  height: 500px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .main__formulario {
   background-color: pink;
   width: 50%;

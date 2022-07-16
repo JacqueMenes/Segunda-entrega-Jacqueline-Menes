@@ -19,6 +19,15 @@
         text-align: center;
     }
 }
+//Cuerpo Quien Soy
+.main {
+    &__quiensoy {
+        width: 70%px;
+        height: 500px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
 // Cuerpo Contacto
 .main {
     &__formulario {
